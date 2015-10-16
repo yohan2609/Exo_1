@@ -4,18 +4,18 @@ public class FonctionBizz {
 	public int n,m;
 	public static void main(String[] args) 
 	{
-	bizzBuzz(10);
+	bizzBuzzBozz(9);
 	}
-	public static void bizzBuzz(int n) 
+	public static void bizzBuzzBozz(int n) 
 	{
-		int mult3=n%3;
-		if (mult3==0)
+		
+		if (n==10)
 		{		
-			System.out.println("multiple de 3");
+			System.out.println("n est égale à 10");
 		}
 		else
 		{		
-			System.out.println("multiple de 5");
+			System.out.println("autre que 10");
 		}	
 	}
 }
